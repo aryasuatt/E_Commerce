@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="login_body">
+
+    <div class="login-container">
+        <h2>Satıcı Girişi</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" id="login-btn">Giriş Yap</button>
+            <p id="error-message" class="error-message"></p>
+        </form>
+        <a href="/sifremi-unuttum" class="forgot-password-link">Şifremi Unuttum</a>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
