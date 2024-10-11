@@ -18,6 +18,10 @@ namespace SanalMarketAPI.Data
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Address> Addresses { get; set; }
+        public DbSet<Review> Reviews { get; set; }    
+        public DbSet<Wishlist> Wishlists { get; set; }
+        public DbSet<Shipping> Shippings { get; set; }
+        public DbSet<Discount> Discounts { get; set; }
 
 
 
@@ -60,6 +64,46 @@ namespace SanalMarketAPI.Data
                 .WithMany(p => p.OrderItems)
                 .HasForeignKey(oi => oi.ProductId)
                 .OnDelete(DeleteBehavior.Restrict); // Product silinirse, OrderItems kalmaya devam etsin
+
+            // Review ile Product ve User arasındaki ilişki
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.Product)
+                .WithMany(p => p.Reviews)
+                .HasForeignKey(r => r.ProductId)
+                .OnDelete(DeleteBehavior.Cascade); // Product silinirse Reviews de silinir
+
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.User)
+                .WithMany(u => u.Reviews)
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Wishlist ile Product ve User arasındaki ilişki
+            modelBuilder.Entity<Wishlist>()
+                .HasOne(w => w.Product)
+                .WithMany(p => p.Wishlists)
+                .HasForeignKey(w => w.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Wishlist>()
+                .HasOne(w => w.User)
+                .WithMany(u => u.Wishlists)
+                .HasForeignKey(w => w.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Shipping ile Order arasındaki ilişki
+            modelBuilder.Entity<Shipping>()
+                .HasOne(s => s.Order)
+                .WithMany(o => o.Shipping)
+                .HasForeignKey(s => s.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Discount ile Product arasındaki çoktan-çoğa ilişki
+            modelBuilder.Entity<Discount>()
+                .HasMany(d => d.Products)
+                .WithMany(p => p.Discounts)
+                .UsingEntity(j => j.ToTable("ProductDiscounts"));
+
 
 
 

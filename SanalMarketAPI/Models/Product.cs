@@ -10,9 +10,11 @@
         public int StockQuantity { get; set; }
         public string SellerId { get; set; }
         public User Seller { get; set; }
-
-
+       
         // OrderItems ile ilişki
         public ICollection<OrderItem> OrderItems { get; set; }
+        public ICollection<Review> Reviews { get; set; }
+        public ICollection<Wishlist> Wishlists { get; set; }
+        public ICollection<Discount> Discounts { get; set; }
     }
 }
