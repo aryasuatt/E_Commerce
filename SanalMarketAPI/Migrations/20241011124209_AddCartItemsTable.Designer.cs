@@ -12,8 +12,8 @@ using SanalMarketAPI.Data;
 namespace SanalMarketAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241010202736_UpdateOrderItemsConstraints")]
-    partial class UpdateOrderItemsConstraints
+    [Migration("20241011124209_AddCartItemsTable")]
+    partial class AddCartItemsTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -468,7 +468,7 @@ namespace SanalMarketAPI.Migrations
                     b.HasOne("SanalMarketAPI.Models.Product", "Product")
                         .WithMany("OrderItems")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Order");

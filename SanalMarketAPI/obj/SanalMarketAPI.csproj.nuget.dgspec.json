@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\SanalMarketAPI\\SanalMarketAPI.csproj": {}
+    "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\SanalMarketAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\SanalMarketAPI\\SanalMarketAPI.csproj": {
+    "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\SanalMarketAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\SanalMarketAPI\\SanalMarketAPI.csproj",
+        "projectUniqueName": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\SanalMarketAPI.csproj",
         "projectName": "SanalMarketAPI",
-        "projectPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\SanalMarketAPI\\SanalMarketAPI.csproj",
+        "projectPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\SanalMarketAPI.csproj",
         "packagesPath": "C:\\Users\\arya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\SanalMarketAPI\\obj\\",
+        "outputPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
