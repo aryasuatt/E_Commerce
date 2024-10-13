@@ -42,7 +42,8 @@ namespace SanalMarketAPI.Controllers
             var user = new ApplicationUser
             {
                 UserName = model.Username,   // Kullanıcı adı
-                Email = model.Email         // Email adresi
+                Email = model.Email,         // Email adresi
+                FullName = model.FullName
             };
 
             // Identity framework ile kullanıcı oluşturma işlemi yapılıyor
@@ -121,6 +122,7 @@ namespace SanalMarketAPI.Controllers
         public required string Username { get; set; }  // Kullanıcı adı
         public required string Email { get; set; }     // Email adresi
         public required string Password { get; set; }  // Şifre
+        public string FullName { get; set; }
     }
 
 

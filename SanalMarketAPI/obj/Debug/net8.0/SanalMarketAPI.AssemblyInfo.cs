@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SanalMarketAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8899f50bab689821af6dff0c124923300dc5eb24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7d22854c7ebaf0566da226293e9181ad702c388")]
 [assembly: System.Reflection.AssemblyProductAttribute("SanalMarketAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SanalMarketAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

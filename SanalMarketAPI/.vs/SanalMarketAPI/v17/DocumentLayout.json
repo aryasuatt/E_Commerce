@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,28 +46,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:29:33.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T13:34:35.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCsAAAA9AAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAD4v00AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T13:25:00.162Z"
+              "WhenOpened": "2024-10-11T13:25:00.162Z",
+              "EditorCaption": ""
             }
           ]
         }
