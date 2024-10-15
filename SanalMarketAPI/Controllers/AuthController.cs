@@ -99,14 +99,15 @@ namespace SanalMarketAPI.Controllers
                     // Eğer istenirse daha fazla claim eklenebilir
                 }),
 
-                Expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_configuration["Jwt:ExpireMinutes"])), // Token'ın geçerlilik süresi
+                NotBefore = DateTime.UtcNow,
+
+                Expires = DateTime.UtcNow.AddHours(1), // Token'ın geçerlilik süresi
                 Issuer = _configuration["Jwt:Issuer"],      // Token'ı yayınlayan
                 Audience = _configuration["Jwt:Audience"],  // Token'ı alacak olan (kimler kullanabilir)
 
                 // Token'ın imzalanma işlemi
-                SigningCredentials = new SigningCredentials(
-                    new SymmetricSecurityKey(key),
-                    SecurityAlgorithms.HmacSha256Signature) // HMAC-SHA256 algoritmasıyla imzalanıyor
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+
             };
 
             // Token oluşturuluyor
