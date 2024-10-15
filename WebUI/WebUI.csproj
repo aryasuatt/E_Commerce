@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\main_Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\main_Layout.cshtml" />
     <None Include="wwwroot\css\bootstrap.min.css" />
     <None Include="wwwroot\css\elegant-icons.css" />
     <None Include="wwwroot\css\font-awesome.min.css" />
@@ -25,6 +30,14 @@
     <None Include="wwwroot\js\mixitup.min.js" />
     <None Include="wwwroot\js\owl.carousel.min.js" />
     <None Include="wwwroot\js\script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Shared\main_Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Shared\main_Layout.cshtml" />
   </ItemGroup>
 
 </Project>
