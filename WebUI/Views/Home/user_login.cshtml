@@ -1,9 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,6 +27,45 @@
             <p id="error-message" class="error-message"></p>
         </form>
     </div>
+    <script>
+        document.getElementById('login-form').addEventListener('submit', async function (e) {
+            e.preventDefault(); // Formun varsayılan gönderme işlemini engeller
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const response = await fetch('https://localhost:5001/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username: username,
+                        password: password
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // Eğer başarılıysa JWT token'ı alır ve localStorage'a kaydeder
+                    localStorage.setItem('token', data.token);
+
+                    // Başarılı giriş sonrası yönlendirme yapılabilir (örneğin ana sayfa)
+                    window.location.href = '/homepage'; // Ana sayfa veya yönlendirilmek istenilen sayfa
+                } else {
+                    // Eğer giriş başarısızsa bir hata mesajı gösterir
+                    const errorMessage = await response.text();
+                    document.getElementById('error-message').innerText = 'Giriş başarısız: ' + errorMessage;
+                }
+            } catch (error) {
+                console.error('Hata:', error);
+                document.getElementById('error-message').innerText = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+            }
+        });
+    </script>
+
 
     <script src="script.js"></script>
 </body>

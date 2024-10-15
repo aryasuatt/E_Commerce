@@ -7,55 +7,49 @@ using SanalMarketAPI.Data;
 using SanalMarketAPI.Models;
 using System.Text;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
-//Add services to the container.
+// Add services to the container.
 
-//Add controllers
+// Add controllers
 builder.Services.AddControllers();
 
-//Add Swagger
+// Add Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Add Response Caching
+// Add Response Caching
 builder.Services.AddResponseCaching();
 
-//Cors configuration
+// CORS configuration
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://127.0.0.1:5500") // Allow only this origin
-                   .AllowAnyMethod()    // Allowed all origins.
-                   .AllowAnyHeader();   // Allowed all headers.
-
-            //Allow all:
-            //builder.AllowAnyOrigin()
-            //       .AllowAnyMethod()
-            //       .AllowAnyHeader();
+            builder.WithOrigins("http://127.0.0.1:5500") // UI projesinin çalýþtýðý port
+                   .AllowAnyMethod()                     // Tüm HTTP metotlarýna izin ver
+                   .AllowAnyHeader()                     // Her türlü HTTP baþlýðýna izin ver
+                   .AllowCredentials();                  // Kimlik doðrulama bilgilerini kabul et (JWT veya cookie)
         });
 });
 
-//Connection string
+// Connection string
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-
 
 // Add DbContext with SQL server connection
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
-//Add Identity services for authentication
+// Add Identity services for authentication
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
-// JWT settings from confugiration
+// JWT settings from configuration
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
 
-//JWT Authentication configuration
+// JWT Authentication configuration
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -76,14 +70,12 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
-
 // Add Authorization service
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-//Configure the HTTP rquest pipeline
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -91,8 +83,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Add CORS middleware
-app.UseCors("AllowSpesificOrigin");
-
+app.UseCors("AllowSpecificOrigin");
 
 // Enable HTTPS redirection
 app.UseHttpsRedirection();
@@ -109,5 +100,3 @@ app.MapControllers();
 
 // Run the application
 app.Run();
-
-

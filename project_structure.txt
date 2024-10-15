@@ -1,0 +1,1472 @@
+Folder PATH listing
+Volume serial number is BE41-96DC
+C:.
+-   .gitattributes
+-   project_structure.txt
+-   
++¦¦¦.github
+-   L¦¦¦workflows
++¦¦¦SanalMarketAPI
+-   -   appsettings.Development.json
+-   -   appsettings.json
+-   -   Program.cs
+-   -   SanalMarketAPI.csproj
+-   -   SanalMarketAPI.csproj.user
+-   -   SanalMarketAPI.http
+-   -   SanalMarketAPI.sln
+-   -   WeatherForecast.cs
+-   -   
+-   +¦¦¦bin
+-   -   L¦¦¦Debug
+-   -       L¦¦¦net8.0
+-   -           -   appsettings.Development.json
+-   -           -   appsettings.json
+-   -           -   Azure.Core.dll
+-   -           -   Azure.Identity.dll
+-   -           -   dotnet-aspnet-codegenerator-design.dll
+-   -           -   Humanizer.dll
+-   -           -   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+-   -           -   Microsoft.AspNetCore.Cryptography.Internal.dll
+-   -           -   Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+-   -           -   Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+-   -           -   Microsoft.AspNetCore.OpenApi.dll
+-   -           -   Microsoft.AspNetCore.Razor.Language.dll
+-   -           -   Microsoft.Bcl.AsyncInterfaces.dll
+-   -           -   Microsoft.Build.dll
+-   -           -   Microsoft.Build.Framework.dll
+-   -           -   Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+-   -           -   Microsoft.CodeAnalysis.CSharp.dll
+-   -           -   Microsoft.CodeAnalysis.CSharp.Features.dll
+-   -           -   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+-   -           -   Microsoft.CodeAnalysis.dll
+-   -           -   Microsoft.CodeAnalysis.Elfie.dll
+-   -           -   Microsoft.CodeAnalysis.Features.dll
+-   -           -   Microsoft.CodeAnalysis.Razor.dll
+-   -           -   Microsoft.CodeAnalysis.Scripting.dll
+-   -           -   Microsoft.CodeAnalysis.Workspaces.dll
+-   -           -   Microsoft.Data.SqlClient.dll
+-   -           -   Microsoft.DiaSymReader.dll
+-   -           -   Microsoft.DotNet.Scaffolding.Shared.dll
+-   -           -   Microsoft.EntityFrameworkCore.Abstractions.dll
+-   -           -   Microsoft.EntityFrameworkCore.Design.dll
+-   -           -   Microsoft.EntityFrameworkCore.dll
+-   -           -   Microsoft.EntityFrameworkCore.Relational.dll
+-   -           -   Microsoft.EntityFrameworkCore.SqlServer.dll
+-   -           -   Microsoft.Extensions.Caching.Memory.dll
+-   -           -   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+-   -           -   Microsoft.Extensions.DependencyInjection.dll
+-   -           -   Microsoft.Extensions.DependencyModel.dll
+-   -           -   Microsoft.Extensions.Identity.Core.dll
+-   -           -   Microsoft.Extensions.Identity.Stores.dll
+-   -           -   Microsoft.Extensions.Logging.Abstractions.dll
+-   -           -   Microsoft.Extensions.Logging.dll
+-   -           -   Microsoft.Extensions.Options.dll
+-   -           -   Microsoft.Identity.Client.dll
+-   -           -   Microsoft.Identity.Client.Extensions.Msal.dll
+-   -           -   Microsoft.IdentityModel.Abstractions.dll
+-   -           -   Microsoft.IdentityModel.JsonWebTokens.dll
+-   -           -   Microsoft.IdentityModel.Logging.dll
+-   -           -   Microsoft.IdentityModel.Protocols.dll
+-   -           -   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+-   -           -   Microsoft.IdentityModel.Tokens.dll
+-   -           -   Microsoft.NET.StringTools.dll
+-   -           -   Microsoft.OpenApi.dll
+-   -           -   Microsoft.SqlServer.Server.dll
+-   -           -   Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+-   -           -   Microsoft.VisualStudio.Web.CodeGeneration.dll
+-   -           -   Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+-   -           -   Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+-   -           -   Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+-   -           -   Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+-   -           -   Microsoft.Win32.SystemEvents.dll
+-   -           -   Mono.TextTemplating.dll
+-   -           -   Newtonsoft.Json.dll
+-   -           -   NuGet.Common.dll
+-   -           -   NuGet.Configuration.dll
+-   -           -   NuGet.DependencyResolver.Core.dll
+-   -           -   NuGet.Frameworks.dll
+-   -           -   NuGet.LibraryModel.dll
+-   -           -   NuGet.Packaging.dll
+-   -           -   NuGet.ProjectModel.dll
+-   -           -   NuGet.Protocol.dll
+-   -           -   NuGet.Versioning.dll
+-   -           -   SanalMarketAPI.deps.json
+-   -           -   SanalMarketAPI.dll
+-   -           -   SanalMarketAPI.exe
+-   -           -   SanalMarketAPI.pdb
+-   -           -   SanalMarketAPI.runtimeconfig.json
+-   -           -   Swashbuckle.AspNetCore.Swagger.dll
+-   -           -   Swashbuckle.AspNetCore.SwaggerGen.dll
+-   -           -   Swashbuckle.AspNetCore.SwaggerUI.dll
+-   -           -   System.CodeDom.dll
+-   -           -   System.Composition.AttributedModel.dll
+-   -           -   System.Composition.Convention.dll
+-   -           -   System.Composition.Hosting.dll
+-   -           -   System.Composition.Runtime.dll
+-   -           -   System.Composition.TypedParts.dll
+-   -           -   System.Configuration.ConfigurationManager.dll
+-   -           -   System.Drawing.Common.dll
+-   -           -   System.IdentityModel.Tokens.Jwt.dll
+-   -           -   System.Memory.Data.dll
+-   -           -   System.Reflection.MetadataLoadContext.dll
+-   -           -   System.Runtime.Caching.dll
+-   -           -   System.Security.Cryptography.ProtectedData.dll
+-   -           -   System.Security.Permissions.dll
+-   -           -   System.Windows.Extensions.dll
+-   -           -   
+-   -           +¦¦¦af
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦ar
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦az
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦bg
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦bn-BD
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦cs
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦da
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦de
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦el
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦es
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦fa
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦fi-FI
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦fr
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦fr-BE
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦he
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦hr
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦hu
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦hy
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦id
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦is
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦it
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦ja
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦ko
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦ko-KR
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦ku
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦lv
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦ms-MY
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦mt
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦nb
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦nb-NO
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦nl
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦pl
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦pt
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦pt-BR
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦ro
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦ru
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦runtimes
+-   -           -   +¦¦¦unix
+-   -           -   -   L¦¦¦lib
+-   -           -   -       L¦¦¦net6.0
+-   -           -   -               Microsoft.Data.SqlClient.dll
+-   -           -   -               
+-   -           -   +¦¦¦win
+-   -           -   -   L¦¦¦lib
+-   -           -   -       +¦¦¦net6.0
+-   -           -   -       -       Microsoft.Data.SqlClient.dll
+-   -           -   -       -       System.Runtime.Caching.dll
+-   -           -   -       -       
+-   -           -   -       L¦¦¦net7.0
+-   -           -   -               Microsoft.Win32.SystemEvents.dll
+-   -           -   -               System.Drawing.Common.dll
+-   -           -   -               System.Security.Cryptography.ProtectedData.dll
+-   -           -   -               System.Windows.Extensions.dll
+-   -           -   -               
+-   -           -   +¦¦¦win-arm
+-   -           -   -   L¦¦¦native
+-   -           -   -           Microsoft.Data.SqlClient.SNI.dll
+-   -           -   -           
+-   -           -   +¦¦¦win-arm64
+-   -           -   -   L¦¦¦native
+-   -           -   -           Microsoft.Data.SqlClient.SNI.dll
+-   -           -   -           
+-   -           -   +¦¦¦win-x64
+-   -           -   -   L¦¦¦native
+-   -           -   -           Microsoft.Data.SqlClient.SNI.dll
+-   -           -   -           
+-   -           -   L¦¦¦win-x86
+-   -           -       L¦¦¦native
+-   -           -               Microsoft.Data.SqlClient.SNI.dll
+-   -           -               
+-   -           +¦¦¦sk
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦sl
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦sr
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦sr-Latn
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦sv
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦th-TH
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦tr
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           +¦¦¦uk
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦uz-Cyrl-UZ
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦uz-Latn-UZ
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦vi
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦zh-CN
+-   -           -       Humanizer.resources.dll
+-   -           -       
+-   -           +¦¦¦zh-Hans
+-   -           -       Humanizer.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -           -       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Features.resources.dll
+-   -           -       Microsoft.CodeAnalysis.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -           -       Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -           -       
+-   -           L¦¦¦zh-Hant
+-   -                   Humanizer.resources.dll
+-   -                   Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+-   -                   Microsoft.CodeAnalysis.CSharp.resources.dll
+-   -                   Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+-   -                   Microsoft.CodeAnalysis.Features.resources.dll
+-   -                   Microsoft.CodeAnalysis.resources.dll
+-   -                   Microsoft.CodeAnalysis.Scripting.resources.dll
+-   -                   Microsoft.CodeAnalysis.Workspaces.resources.dll
+-   -                   
+-   +¦¦¦Context
+-   -       AppDbContext.cs
+-   -       
+-   +¦¦¦Controllers
+-   -       AuthController.cs
+-   -       CartController.cs
+-   -       CategoryController.cs
+-   -       DiscountController.cs
+-   -       OrdersController.cs
+-   -       PaymentsController.cs
+-   -       ProductsController.cs
+-   -       ReviewController.cs
+-   -       ShippingController.cs
+-   -       UserController.cs
+-   -       WishlistController.cs
+-   -       
+-   +¦¦¦Migrations
+-   -       20241011134552_InitialCreate.cs
+-   -       20241011134552_InitialCreate.Designer.cs
+-   -       AppDbContextModelSnapshot.cs
+-   -       
+-   +¦¦¦Models
+-   -       Address.cs
+-   -       ApplicationUser.cs
+-   -       CartItems.cs
+-   -       Category.cs
+-   -       Discount.cs
+-   -       Order.cs
+-   -       OrderItem.cs
+-   -       Payment.cs
+-   -       Product.cs
+-   -       Review.cs
+-   -       Shipping.cs
+-   -       User.cs
+-   -       Wishlist.cs
+-   -       
+-   +¦¦¦obj
+-   -   -   project.assets.json
+-   -   -   project.nuget.cache
+-   -   -   SanalMarketAPI.csproj.EntityFrameworkCore.targets
+-   -   -   SanalMarketAPI.csproj.nuget.dgspec.json
+-   -   -   SanalMarketAPI.csproj.nuget.g.props
+-   -   -   SanalMarketAPI.csproj.nuget.g.targets
+-   -   -   
+-   -   L¦¦¦Debug
+-   -       L¦¦¦net8.0
+-   -           -   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+-   -           -   apphost.exe
+-   -           -   project.razor.vs.bin
+-   -           -   SanalMar.E2EA01A1.Up2Date
+-   -           -   SanalMarketAPI.AssemblyInfo.cs
+-   -           -   SanalMarketAPI.AssemblyInfoInputs.cache
+-   -           -   SanalMarketAPI.assets.cache
+-   -           -   SanalMarketAPI.csproj.AssemblyReference.cache
+-   -           -   SanalMarketAPI.csproj.BuildWithSkipAnalyzers
+-   -           -   SanalMarketAPI.csproj.CoreCompileInputs.cache
+-   -           -   SanalMarketAPI.csproj.FileListAbsolute.txt
+-   -           -   SanalMarketAPI.dll
+-   -           -   SanalMarketAPI.GeneratedMSBuildEditorConfig.editorconfig
+-   -           -   SanalMarketAPI.genruntimeconfig.cache
+-   -           -   SanalMarketAPI.GlobalUsings.g.cs
+-   -           -   SanalMarketAPI.MvcApplicationPartsAssemblyInfo.cache
+-   -           -   SanalMarketAPI.MvcApplicationPartsAssemblyInfo.cs
+-   -           -   SanalMarketAPI.pdb
+-   -           -   SanalMarketAPI.sourcelink.json
+-   -           -   staticwebassets.build.json
+-   -           -   
+-   -           +¦¦¦ref
+-   -           -       SanalMarketAPI.dll
+-   -           -       
+-   -           +¦¦¦refint
+-   -           -       SanalMarketAPI.dll
+-   -           -       
+-   -           L¦¦¦staticwebassets
+-   -                   msbuild.build.SanalMarketAPI.props
+-   -                   msbuild.buildMultiTargeting.SanalMarketAPI.props
+-   -                   msbuild.buildTransitive.SanalMarketAPI.props
+-   -                   
+-   L¦¦¦Properties
+-           launchSettings.json
+-           
++¦¦¦UI
+-   +¦¦¦.vscode
+-   -       settings.json
+-   -       
+-   +¦¦¦frontend_
+-   -   -   admin_login.html
+-   -   -   blog-details.html
+-   -   -   blog.html
+-   -   -   checkout.html
+-   -   -   contact.html
+-   -   -   index.html
+-   -   -   readme.txt
+-   -   -   shop-details.html
+-   -   -   shop-grid.html
+-   -   -   shoping-cart.html
+-   -   -   user_login.html
+-   -   -   
+-   -   +¦¦¦.vscode
+-   -   -       launch.json
+-   -   -       settings.json
+-   -   -       
+-   -   +¦¦¦css
+-   -   -       bootstrap.min.css
+-   -   -       elegant-icons.css
+-   -   -       font-awesome.min.css
+-   -   -       jquery-ui.min.css
+-   -   -       login.css
+-   -   -       nice-select.css
+-   -   -       owl.carousel.min.css
+-   -   -       slicknav.min.css
+-   -   -       style.css
+-   -   -       
+-   -   +¦¦¦fonts
+-   -   -       ElegantIcons.eot
+-   -   -       ElegantIcons.svg
+-   -   -       ElegantIcons.ttf
+-   -   -       ElegantIcons.woff
+-   -   -       fontawesome-webfont.eot
+-   -   -       fontawesome-webfont.svg
+-   -   -       fontawesome-webfont.ttf
+-   -   -       fontawesome-webfont.woff
+-   -   -       fontawesome-webfont.woff2
+-   -   -       FontAwesome.otf
+-   -   -       
+-   -   +¦¦¦img
+-   -   -   -   breadcrumb.jpg
+-   -   -   -   language.png
+-   -   -   -   logo.png
+-   -   -   -   payment-item.png
+-   -   -   -   
+-   -   -   +¦¦¦banner
+-   -   -   -       banner-1.jpg
+-   -   -   -       banner-2.jpg
+-   -   -   -       
+-   -   -   +¦¦¦blog
+-   -   -   -   -   blog-1.jpg
+-   -   -   -   -   blog-2.jpg
+-   -   -   -   -   blog-3.jpg
+-   -   -   -   -   blog-4.jpg
+-   -   -   -   -   blog-5.jpg
+-   -   -   -   -   blog-6.jpg
+-   -   -   -   -   
+-   -   -   -   +¦¦¦details
+-   -   -   -   -       details-author.jpg
+-   -   -   -   -       details-hero.jpg
+-   -   -   -   -       details-pic.jpg
+-   -   -   -   -       
+-   -   -   -   L¦¦¦sidebar
+-   -   -   -           sr-1.jpg
+-   -   -   -           sr-2.jpg
+-   -   -   -           sr-3.jpg
+-   -   -   -           
+-   -   -   +¦¦¦cart
+-   -   -   -       cart-1.jpg
+-   -   -   -       cart-2.jpg
+-   -   -   -       cart-3.jpg
+-   -   -   -       
+-   -   -   +¦¦¦categories
+-   -   -   -       cat-1.jpg
+-   -   -   -       cat-2.jpg
+-   -   -   -       cat-3.jpg
+-   -   -   -       cat-4.jpg
+-   -   -   -       cat-5.jpg
+-   -   -   -       
+-   -   -   +¦¦¦featured
+-   -   -   -       feature-1.jpg
+-   -   -   -       feature-2.jpg
+-   -   -   -       feature-3.jpg
+-   -   -   -       feature-4.jpg
+-   -   -   -       feature-5.jpg
+-   -   -   -       feature-6.jpg
+-   -   -   -       feature-7.jpg
+-   -   -   -       feature-8.jpg
+-   -   -   -       
+-   -   -   +¦¦¦hero
+-   -   -   -       banner.jpg
+-   -   -   -       
+-   -   -   +¦¦¦latest-product
+-   -   -   -       lp-1.jpg
+-   -   -   -       lp-2.jpg
+-   -   -   -       lp-3.jpg
+-   -   -   -       
+-   -   -   L¦¦¦product
+-   -   -       -   product-1.jpg
+-   -   -       -   product-10.jpg
+-   -   -       -   product-11.jpg
+-   -   -       -   product-12.jpg
+-   -   -       -   product-2.jpg
+-   -   -       -   product-3.jpg
+-   -   -       -   product-4.jpg
+-   -   -       -   product-5.jpg
+-   -   -       -   product-6.jpg
+-   -   -       -   product-7.jpg
+-   -   -       -   product-8.jpg
+-   -   -       -   product-9.jpg
+-   -   -       -   
+-   -   -       +¦¦¦details
+-   -   -       -       product-details-1.jpg
+-   -   -       -       product-details-2.jpg
+-   -   -       -       product-details-3.jpg
+-   -   -       -       product-details-4.jpg
+-   -   -       -       product-details-5.jpg
+-   -   -       -       thumb-1.jpg
+-   -   -       -       thumb-2.jpg
+-   -   -       -       thumb-3.jpg
+-   -   -       -       thumb-4.jpg
+-   -   -       -       
+-   -   -       L¦¦¦discount
+-   -   -               pd-1.jpg
+-   -   -               pd-2.jpg
+-   -   -               pd-3.jpg
+-   -   -               pd-4.jpg
+-   -   -               pd-5.jpg
+-   -   -               pd-6.jpg
+-   -   -               
+-   -   +¦¦¦js
+-   -   -       bootstrap.min.js
+-   -   -       jquery-3.3.1.min.js
+-   -   -       jquery-ui.min.js
+-   -   -       jquery.nice-select.min.js
+-   -   -       jquery.slicknav.js
+-   -   -       main.js
+-   -   -       mixitup.min.js
+-   -   -       owl.carousel.min.js
+-   -   -       script.js
+-   -   -       
+-   -   +¦¦¦sass
+-   -   -       style.scss
+-   -   -       _base.scss
+-   -   -       _blog-details.scss
+-   -   -       _blog-sidebar.scss
+-   -   -       _blog.scss
+-   -   -       _breadcrumb.scss
+-   -   -       _checkout.scss
+-   -   -       _contact.scss
+-   -   -       _footer.scss
+-   -   -       _header.scss
+-   -   -       _hero.scss
+-   -   -       _home-page.scss
+-   -   -       _mixins.scss
+-   -   -       _responsive.scss
+-   -   -       _shop-details.scss
+-   -   -       _shop-grid.scss
+-   -   -       _shoping-cart.scss
+-   -   -       _sidebar.scss
+-   -   -       _variable.scss
+-   -   -       
+-   -   L¦¦¦Source
+-   -           bootstrap-4.4.1-dist.zip
+-   -           font-awesome-4.7.0.zip
+-   -           jquery-nice-select-1.1.0.zip
+-   -           jquery-ui-1.12.1.zip
+-   -           OwlCarousel2-2.3.4.zip
+-   -           sass.zip
+-   -           SlickNav-master.zip
+-   -           
+-   L¦¦¦login
+-       -   icon-menu.html
+-       -   index.html
+-       -   LICENSE
+-       -   README.md
+-       -   sidebar-style-2.html
+-       -   starter-template.html
+-       -   widgets.html
+-       -   
+-       +¦¦¦assets
+-       -   +¦¦¦css
+-       -   -       bootstrap.min.css
+-       -   -       demo.css
+-       -   -       demo.css.map
+-       -   -       fonts.css
+-       -   -       fonts.min.css
+-       -   -       kaiadmin.css
+-       -   -       kaiadmin.css.map
+-       -   -       kaiadmin.min.css
+-       -   -       plugins.css
+-       -   -       plugins.css.map
+-       -   -       plugins.min.css
+-       -   -       
+-       -   +¦¦¦fonts
+-       -   -   +¦¦¦fontawesome
+-       -   -   -       fa-brands-400.eot
+-       -   -   -       fa-brands-400.svg
+-       -   -   -       fa-brands-400.ttf
+-       -   -   -       fa-brands-400.woff
+-       -   -   -       fa-brands-400.woff2
+-       -   -   -       fa-regular-400.eot
+-       -   -   -       fa-regular-400.svg
+-       -   -   -       fa-regular-400.ttf
+-       -   -   -       fa-regular-400.woff
+-       -   -   -       fa-regular-400.woff2
+-       -   -   -       fa-solid-900.eot
+-       -   -   -       fa-solid-900.svg
+-       -   -   -       fa-solid-900.ttf
+-       -   -   -       fa-solid-900.woff
+-       -   -   -       fa-solid-900.woff2
+-       -   -   -       
+-       -   -   +¦¦¦simple-line-icons
+-       -   -   -       Simple-Line-Icons.eot
+-       -   -   -       Simple-Line-Icons.svg
+-       -   -   -       Simple-Line-Icons.ttf
+-       -   -   -       Simple-Line-Icons.woff
+-       -   -   -       Simple-Line-Icons.woff2
+-       -   -   -       
+-       -   -   L¦¦¦summernote
+-       -   -           summernote.eot
+-       -   -           summernote.ttf
+-       -   -           summernote.woff
+-       -   -           summernote.woff2
+-       -   -           
+-       -   +¦¦¦img
+-       -   -   -   arashmil.jpg
+-       -   -   -   bg-404.jpeg
+-       -   -   -   blogpost.jpg
+-       -   -   -   chadengle.jpg
+-       -   -   -   img-shadow.png
+-       -   -   -   jm_denis.jpg
+-       -   -   -   logoproduct.svg
+-       -   -   -   logoproduct2.svg
+-       -   -   -   logoproduct3.svg
+-       -   -   -   mlane.jpg
+-       -   -   -   profile.jpg
+-       -   -   -   profile2.jpg
+-       -   -   -   sauro.jpg
+-       -   -   -   talha.jpg
+-       -   -   -   visa.svg
+-       -   -   -   
+-       -   -   +¦¦¦examples
+-       -   -   -       example1-300x300.jpg
+-       -   -   -       example1.jpeg
+-       -   -   -       example10-300x300.jpg
+-       -   -   -       example10.jpeg
+-       -   -   -       example11-300x300.jpg
+-       -   -   -       example11.jpeg
+-       -   -   -       example12-300x300.jpg
+-       -   -   -       example12.jpeg
+-       -   -   -       example2-300x300.jpg
+-       -   -   -       example2.jpeg
+-       -   -   -       example3-300x300.jpg
+-       -   -   -       example3.jpeg
+-       -   -   -       example4-300x300.jpg
+-       -   -   -       example4.jpeg
+-       -   -   -       example5-300x300.jpg
+-       -   -   -       example5.jpeg
+-       -   -   -       example6-300x300.jpg
+-       -   -   -       example6.jpeg
+-       -   -   -       example7-300x300.jpg
+-       -   -   -       example7.jpeg
+-       -   -   -       example8-300x300.jpg
+-       -   -   -       example8.jpeg
+-       -   -   -       example9-300x300.jpg
+-       -   -   -       example9.jpeg
+-       -   -   -       logo.svg
+-       -   -   -       logo1.svg
+-       -   -   -       logo2.svg
+-       -   -   -       logoinvoice.svg
+-       -   -   -       product1.jpg
+-       -   -   -       product10.jpeg
+-       -   -   -       product11.jpeg
+-       -   -   -       product12.jpeg
+-       -   -   -       product2.jpg
+-       -   -   -       product3.jpg
+-       -   -   -       product4.jpg
+-       -   -   -       product5.jpg
+-       -   -   -       product6.jpg
+-       -   -   -       product7.jpg
+-       -   -   -       product8.jpg
+-       -   -   -       
+-       -   -   +¦¦¦flags
+-       -   -   -       ad.png
+-       -   -   -       ae.png
+-       -   -   -       af.png
+-       -   -   -       ag.png
+-       -   -   -       ai.png
+-       -   -   -       al.png
+-       -   -   -       am.png
+-       -   -   -       an.png
+-       -   -   -       ao.png
+-       -   -   -       ar.png
+-       -   -   -       as.png
+-       -   -   -       at.png
+-       -   -   -       au.png
+-       -   -   -       aw.png
+-       -   -   -       ax.png
+-       -   -   -       az.png
+-       -   -   -       ba.png
+-       -   -   -       bb.png
+-       -   -   -       bd.png
+-       -   -   -       be.png
+-       -   -   -       bf.png
+-       -   -   -       bg.png
+-       -   -   -       bh.png
+-       -   -   -       bi.png
+-       -   -   -       bj.png
+-       -   -   -       bm.png
+-       -   -   -       bn.png
+-       -   -   -       bo.png
+-       -   -   -       br.png
+-       -   -   -       bs.png
+-       -   -   -       bt.png
+-       -   -   -       bv.png
+-       -   -   -       bw.png
+-       -   -   -       by.png
+-       -   -   -       bz.png
+-       -   -   -       ca.png
+-       -   -   -       catalonia.png
+-       -   -   -       cc.png
+-       -   -   -       cd.png
+-       -   -   -       cf.png
+-       -   -   -       cg.png
+-       -   -   -       ch.png
+-       -   -   -       ci.png
+-       -   -   -       ck.png
+-       -   -   -       cl.png
+-       -   -   -       cm.png
+-       -   -   -       cn.png
+-       -   -   -       co.png
+-       -   -   -       cr.png
+-       -   -   -       cs.png
+-       -   -   -       cu.png
+-       -   -   -       cv.png
+-       -   -   -       cx.png
+-       -   -   -       cy.png
+-       -   -   -       cz.png
+-       -   -   -       de.png
+-       -   -   -       dj.png
+-       -   -   -       dk.png
+-       -   -   -       dm.png
+-       -   -   -       do.png
+-       -   -   -       dz.png
+-       -   -   -       ec.png
+-       -   -   -       ee.png
+-       -   -   -       eg.png
+-       -   -   -       eh.png
+-       -   -   -       england.png
+-       -   -   -       er.png
+-       -   -   -       es.png
+-       -   -   -       et.png
+-       -   -   -       europeanunion.png
+-       -   -   -       fam.png
+-       -   -   -       fi.png
+-       -   -   -       fj.png
+-       -   -   -       fk.png
+-       -   -   -       fm.png
+-       -   -   -       fo.png
+-       -   -   -       fr.png
+-       -   -   -       ga.png
+-       -   -   -       gb.png
+-       -   -   -       gd.png
+-       -   -   -       ge.png
+-       -   -   -       gf.png
+-       -   -   -       gh.png
+-       -   -   -       gi.png
+-       -   -   -       gl.png
+-       -   -   -       gm.png
+-       -   -   -       gn.png
+-       -   -   -       gp.png
+-       -   -   -       gq.png
+-       -   -   -       gr.png
+-       -   -   -       gs.png
+-       -   -   -       gt.png
+-       -   -   -       gu.png
+-       -   -   -       gw.png
+-       -   -   -       gy.png
+-       -   -   -       hk.png
+-       -   -   -       hm.png
+-       -   -   -       hn.png
+-       -   -   -       hr.png
+-       -   -   -       ht.png
+-       -   -   -       hu.png
+-       -   -   -       id.png
+-       -   -   -       ie.png
+-       -   -   -       il.png
+-       -   -   -       in.png
+-       -   -   -       io.png
+-       -   -   -       iq.png
+-       -   -   -       ir.png
+-       -   -   -       is.png
+-       -   -   -       it.png
+-       -   -   -       jm.png
+-       -   -   -       jo.png
+-       -   -   -       jp.png
+-       -   -   -       ke.png
+-       -   -   -       kg.png
+-       -   -   -       kh.png
+-       -   -   -       ki.png
+-       -   -   -       km.png
+-       -   -   -       kn.png
+-       -   -   -       kp.png
+-       -   -   -       kr.png
+-       -   -   -       kw.png
+-       -   -   -       ky.png
+-       -   -   -       kz.png
+-       -   -   -       la.png
+-       -   -   -       lb.png
+-       -   -   -       lc.png
+-       -   -   -       li.png
+-       -   -   -       lk.png
+-       -   -   -       lr.png
+-       -   -   -       ls.png
+-       -   -   -       lt.png
+-       -   -   -       lu.png
+-       -   -   -       lv.png
+-       -   -   -       ly.png
+-       -   -   -       ma.png
+-       -   -   -       mc.png
+-       -   -   -       md.png
+-       -   -   -       me.png
+-       -   -   -       mg.png
+-       -   -   -       mh.png
+-       -   -   -       mk.png
+-       -   -   -       ml.png
+-       -   -   -       mm.png
+-       -   -   -       mn.png
+-       -   -   -       mo.png
+-       -   -   -       mp.png
+-       -   -   -       mq.png
+-       -   -   -       mr.png
+-       -   -   -       ms.png
+-       -   -   -       mt.png
+-       -   -   -       mu.png
+-       -   -   -       mv.png
+-       -   -   -       mw.png
+-       -   -   -       mx.png
+-       -   -   -       my.png
+-       -   -   -       mz.png
+-       -   -   -       na.png
+-       -   -   -       nc.png
+-       -   -   -       ne.png
+-       -   -   -       nf.png
+-       -   -   -       ng.png
+-       -   -   -       ni.png
+-       -   -   -       nl.png
+-       -   -   -       no.png
+-       -   -   -       np.png
+-       -   -   -       nr.png
+-       -   -   -       nu.png
+-       -   -   -       nz.png
+-       -   -   -       om.png
+-       -   -   -       pa.png
+-       -   -   -       pe.png
+-       -   -   -       pf.png
+-       -   -   -       pg.png
+-       -   -   -       ph.png
+-       -   -   -       pk.png
+-       -   -   -       pl.png
+-       -   -   -       pm.png
+-       -   -   -       pn.png
+-       -   -   -       pr.png
+-       -   -   -       ps.png
+-       -   -   -       pt.png
+-       -   -   -       pw.png
+-       -   -   -       py.png
+-       -   -   -       qa.png
+-       -   -   -       re.png
+-       -   -   -       readme.txt
+-       -   -   -       ro.png
+-       -   -   -       rs.png
+-       -   -   -       ru.png
+-       -   -   -       rw.png
+-       -   -   -       sa.png
+-       -   -   -       sb.png
+-       -   -   -       sc.png
+-       -   -   -       scotland.png
+-       -   -   -       sd.png
+-       -   -   -       se.png
+-       -   -   -       sg.png
+-       -   -   -       sh.png
+-       -   -   -       si.png
+-       -   -   -       sj.png
+-       -   -   -       sk.png
+-       -   -   -       sl.png
+-       -   -   -       sm.png
+-       -   -   -       sn.png
+-       -   -   -       so.png
+-       -   -   -       sr.png
+-       -   -   -       st.png
+-       -   -   -       sv.png
+-       -   -   -       sy.png
+-       -   -   -       sz.png
+-       -   -   -       tc.png
+-       -   -   -       td.png
+-       -   -   -       tf.png
+-       -   -   -       tg.png
+-       -   -   -       th.png
+-       -   -   -       tj.png
+-       -   -   -       tk.png
+-       -   -   -       tl.png
+-       -   -   -       tm.png
+-       -   -   -       tn.png
+-       -   -   -       to.png
+-       -   -   -       tr.png
+-       -   -   -       tt.png
+-       -   -   -       tv.png
+-       -   -   -       tw.png
+-       -   -   -       tz.png
+-       -   -   -       ua.png
+-       -   -   -       ug.png
+-       -   -   -       um.png
+-       -   -   -       us.png
+-       -   -   -       uy.png
+-       -   -   -       uz.png
+-       -   -   -       va.png
+-       -   -   -       vc.png
+-       -   -   -       ve.png
+-       -   -   -       vg.png
+-       -   -   -       vi.png
+-       -   -   -       vn.png
+-       -   -   -       vu.png
+-       -   -   -       wales.png
+-       -   -   -       wf.png
+-       -   -   -       ws.png
+-       -   -   -       ye.png
+-       -   -   -       yt.png
+-       -   -   -       za.png
+-       -   -   -       zm.png
+-       -   -   -       zw.png
+-       -   -   -       
+-       -   -   +¦¦¦kaiadmin
+-       -   -   -       demo1.png
+-       -   -   -       demo2.png
+-       -   -   -       demo3.png
+-       -   -   -       demo4.png
+-       -   -   -       demo5.png
+-       -   -   -       demo6.png
+-       -   -   -       demo7.png
+-       -   -   -       demo8.png
+-       -   -   -       demo9.png
+-       -   -   -       favicon.ico
+-       -   -   -       favicon.png
+-       -   -   -       favicon.svg
+-       -   -   -       icon.png
+-       -   -   -       icon.svg
+-       -   -   -       logo_dark.png
+-       -   -   -       logo_dark.svg
+-       -   -   -       logo_documentation.png
+-       -   -   -       logo_light.png
+-       -   -   -       logo_light.svg
+-       -   -   -       
+-       -   -   L¦¦¦undraw
+-       -   -           undraw_blank_canvas_3rbb.svg
+-       -   -           undraw_creative_team_r90h.svg
+-       -   -           undraw_empty_xct9.svg
+-       -   -           undraw_Hello_qnas.svg
+-       -   -           undraw_not_found_60pq.svg
+-       -   -           undraw_no_data_qbuo.svg
+-       -   -           undraw_page_not_found_su7k.svg
+-       -   -           undraw_sign_in_e6hj.svg
+-       -   -           undraw_tabs_jf82.svg
+-       -   -           undraw_Taken_if77.svg
+-       -   -           undraw_update_uxn2.svg
+-       -   -           undraw_upgrade_06a0.svg
+-       -   -           
+-       -   L¦¦¦js
+-       -       -   demo.js
+-       -       -   kaiadmin.js
+-       -       -   kaiadmin.min.js
+-       -       -   setting-demo.js
+-       -       -   setting-demo2.js
+-       -       -   
+-       -       +¦¦¦core
+-       -       -       bootstrap.min.js
+-       -       -       jquery-3.7.1.min.js
+-       -       -       popper.min.js
+-       -       -       
+-       -       L¦¦¦plugin
+-       -           +¦¦¦bootstrap-notify
+-       -           -       bootstrap-notify.min.js
+-       -           -       
+-       -           +¦¦¦bootstrap-tagsinput
+-       -           -       bootstrap-tagsinput.min.js
+-       -           -       
+-       -           +¦¦¦bootstrap-toggle
+-       -           -       bootstrap-toggle.min.js
+-       -           -       
+-       -           +¦¦¦chart-circle
+-       -           -       circles.min.js
+-       -           -       
+-       -           +¦¦¦chart.js
+-       -           -       chart.min.js
+-       -           -       
+-       -           +¦¦¦datatables
+-       -           -       datatables.min.js
+-       -           -       
+-       -           +¦¦¦datepicker
+-       -           -       bootstrap-datetimepicker.min.js
+-       -           -       
+-       -           +¦¦¦dropzone
+-       -           -       dropzone.min.js
+-       -           -       
+-       -           +¦¦¦fullcalendar
+-       -           -       fullcalendar.min.js
+-       -           -       
+-       -           +¦¦¦gmaps
+-       -           -       gmaps.js
+-       -           -       
+-       -           +¦¦¦jquery-scrollbar
+-       -           -       jquery.scrollbar.min.js
+-       -           -       
+-       -           +¦¦¦jquery.magnific-popup
+-       -           -       jquery.magnific-popup.min.js
+-       -           -       
+-       -           +¦¦¦jquery.sparkline
+-       -           -       jquery.sparkline.min.js
+-       -           -       
+-       -           +¦¦¦jquery.validate
+-       -           -       jquery.validate.min.js
+-       -           -       
+-       -           +¦¦¦jsvectormap
+-       -           -       jsvectormap.min.js
+-       -           -       world.js
+-       -           -       
+-       -           +¦¦¦list.js
+-       -           -       list.min.js
+-       -           -       
+-       -           +¦¦¦moment
+-       -           -       moment.min.js
+-       -           -       
+-       -           +¦¦¦owl-carousel
+-       -           -       ajax-loader.gif
+-       -           -       owl.carousel.min.js
+-       -           -       owl.video.play.png
+-       -           -       
+-       -           +¦¦¦select2
+-       -           -       select2.full.min.js
+-       -           -       
+-       -           +¦¦¦sortable
+-       -           -       sortable.min.js
+-       -           -       
+-       -           +¦¦¦sticky-sidebar
+-       -           -       sticky-sidebar.min.js
+-       -           -       
+-       -           +¦¦¦summernote
+-       -           -       summernote-lite.min.js
+-       -           -       
+-       -           +¦¦¦sweetalert
+-       -           -       sweetalert.min.js
+-       -           -       
+-       -           L¦¦¦webfont
+-       -                   webfont.min.js
+-       -                   
+-       +¦¦¦charts
+-       -       charts.html
+-       -       sparkline.html
+-       -       
+-       +¦¦¦components
+-       -       avatars.html
+-       -       buttons.html
+-       -       font-awesome-icons.html
+-       -       gridsystem.html
+-       -       notifications.html
+-       -       panels.html
+-       -       simple-line-icons.html
+-       -       sweetalert.html
+-       -       typography.html
+-       -       
+-       +¦¦¦forms
+-       -       forms.html
+-       -       
+-       +¦¦¦maps
+-       -       googlemaps.html
+-       -       jsvectormap.html
+-       -       
+-       L¦¦¦tables
+-               datatables.html
+-               tables.html
+-               
+L¦¦¦WebUI
+    -   appsettings.Development.json
+    -   appsettings.json
+    -   Program.cs
+    -   WebUI.csproj
+    -   WebUI.csproj.user
+    -   
+    +¦¦¦bin
+    -   L¦¦¦Debug
+    -       L¦¦¦net8.0
+    -               appsettings.Development.json
+    -               appsettings.json
+    -               WebUI.deps.json
+    -               WebUI.dll
+    -               WebUI.exe
+    -               WebUI.pdb
+    -               WebUI.runtimeconfig.json
+    -               WebUI.staticwebassets.runtime.json
+    -               
+    +¦¦¦Context
+    -   +¦¦¦fonts
+    -   -       ElegantIcons.eot
+    -   -       ElegantIcons.svg
+    -   -       ElegantIcons.ttf
+    -   -       ElegantIcons.woff
+    -   -       fontawesome-webfont.eot
+    -   -       fontawesome-webfont.svg
+    -   -       fontawesome-webfont.ttf
+    -   -       fontawesome-webfont.woff
+    -   -       fontawesome-webfont.woff2
+    -   -       FontAwesome.otf
+    -   -       
+    -   L¦¦¦img
+    -       -   breadcrumb.jpg
+    -       -   language.png
+    -       -   logo.png
+    -       -   payment-item.png
+    -       -   
+    -       +¦¦¦banner
+    -       -       banner-1.jpg
+    -       -       banner-2.jpg
+    -       -       
+    -       +¦¦¦blog
+    -       -   -   blog-1.jpg
+    -       -   -   blog-2.jpg
+    -       -   -   blog-3.jpg
+    -       -   -   blog-4.jpg
+    -       -   -   blog-5.jpg
+    -       -   -   blog-6.jpg
+    -       -   -   
+    -       -   +¦¦¦details
+    -       -   -       details-author.jpg
+    -       -   -       details-hero.jpg
+    -       -   -       details-pic.jpg
+    -       -   -       
+    -       -   L¦¦¦sidebar
+    -       -           sr-1.jpg
+    -       -           sr-2.jpg
+    -       -           sr-3.jpg
+    -       -           
+    -       +¦¦¦cart
+    -       -       cart-1.jpg
+    -       -       cart-2.jpg
+    -       -       cart-3.jpg
+    -       -       
+    -       +¦¦¦categories
+    -       -       cat-1.jpg
+    -       -       cat-2.jpg
+    -       -       cat-3.jpg
+    -       -       cat-4.jpg
+    -       -       cat-5.jpg
+    -       -       
+    -       +¦¦¦featured
+    -       -       feature-1.jpg
+    -       -       feature-2.jpg
+    -       -       feature-3.jpg
+    -       -       feature-4.jpg
+    -       -       feature-5.jpg
+    -       -       feature-6.jpg
+    -       -       feature-7.jpg
+    -       -       feature-8.jpg
+    -       -       
+    -       +¦¦¦hero
+    -       -       banner.jpg
+    -       -       
+    -       +¦¦¦latest-product
+    -       -       lp-1.jpg
+    -       -       lp-2.jpg
+    -       -       lp-3.jpg
+    -       -       
+    -       L¦¦¦product
+    -           -   product-1.jpg
+    -           -   product-10.jpg
+    -           -   product-11.jpg
+    -           -   product-12.jpg
+    -           -   product-2.jpg
+    -           -   product-3.jpg
+    -           -   product-4.jpg
+    -           -   product-5.jpg
+    -           -   product-6.jpg
+    -           -   product-7.jpg
+    -           -   product-8.jpg
+    -           -   product-9.jpg
+    -           -   
+    -           +¦¦¦details
+    -           -       product-details-1.jpg
+    -           -       product-details-2.jpg
+    -           -       product-details-3.jpg
+    -           -       product-details-4.jpg
+    -           -       product-details-5.jpg
+    -           -       thumb-1.jpg
+    -           -       thumb-2.jpg
+    -           -       thumb-3.jpg
+    -           -       thumb-4.jpg
+    -           -       
+    -           L¦¦¦discount
+    -                   pd-1.jpg
+    -                   pd-2.jpg
+    -                   pd-3.jpg
+    -                   pd-4.jpg
+    -                   pd-5.jpg
+    -                   pd-6.jpg
+    -                   
+    +¦¦¦Controllers
+    -       AdminController.cs
+    -       HomeController.cs
+    -       
+    +¦¦¦Models
+    -       ErrorViewModel.cs
+    -       Product.cs
+    -       
+    +¦¦¦obj
+    -   -   project.assets.json
+    -   -   project.nuget.cache
+    -   -   WebUI.csproj.nuget.dgspec.json
+    -   -   WebUI.csproj.nuget.g.props
+    -   -   WebUI.csproj.nuget.g.targets
+    -   -   
+    -   L¦¦¦Debug
+    -       L¦¦¦net8.0
+    -           -   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    -           -   apphost.exe
+    -           -   project.razor.vs.bin
+    -           -   staticwebassets.build.json
+    -           -   staticwebassets.development.json
+    -           -   staticwebassets.pack.json
+    -           -   WebUI.AssemblyInfo.cs
+    -           -   WebUI.AssemblyInfoInputs.cache
+    -           -   WebUI.assets.cache
+    -           -   WebUI.csproj.BuildWithSkipAnalyzers
+    -           -   WebUI.csproj.CoreCompileInputs.cache
+    -           -   WebUI.csproj.FileListAbsolute.txt
+    -           -   WebUI.dll
+    -           -   WebUI.GeneratedMSBuildEditorConfig.editorconfig
+    -           -   WebUI.genruntimeconfig.cache
+    -           -   WebUI.GlobalUsings.g.cs
+    -           -   WebUI.MvcApplicationPartsAssemblyInfo.cache
+    -           -   WebUI.pdb
+    -           -   WebUI.RazorAssemblyInfo.cache
+    -           -   WebUI.RazorAssemblyInfo.cs
+    -           -   WebUI.sourcelink.json
+    -           -   
+    -           +¦¦¦ref
+    -           -       WebUI.dll
+    -           -       
+    -           +¦¦¦refint
+    -           -       WebUI.dll
+    -           -       
+    -           +¦¦¦scopedcss
+    -           -   +¦¦¦bundle
+    -           -   -       WebUI.styles.css
+    -           -   -       
+    -           -   +¦¦¦projectbundle
+    -           -   -       WebUI.bundle.scp.css
+    -           -   -       
+    -           -   L¦¦¦Views
+    -           -       L¦¦¦Shared
+    -           -               _Layout.cshtml.rz.scp.css
+    -           -               
+    -           L¦¦¦staticwebassets
+    -                   msbuild.build.WebUI.props
+    -                   msbuild.buildMultiTargeting.WebUI.props
+    -                   msbuild.buildTransitive.WebUI.props
+    -                   msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+    -                   
+    +¦¦¦Properties
+    -       launchSettings.json
+    -       
+    +¦¦¦Services
+    -       ApiService.cs
+    -       
+    +¦¦¦Views
+    -   -   _ViewImports.cshtml
+    -   -   _ViewStart.cshtml
+    -   -   
+    -   +¦¦¦Home
+    -   -       admin_login.cshtml
+    -   -       blog-details.cshtml
+    -   -       blog.cshtml
+    -   -       checkout.cshtml
+    -   -       contact.cshtml
+    -   -       index.cshtml
+    -   -       shop-details.cshtml
+    -   -       shop-grid.cshtml
+    -   -       shoping-cart.cshtml
+    -   -       user_login.cshtml
+    -   -       
+    -   L¦¦¦Shared
+    -           Error.cshtml
+    -           _Layout.cshtml
+    -           _Layout.cshtml.css
+    -           _ValidationScriptsPartial.cshtml
+    -           
+    L¦¦¦wwwroot
+        -   favicon.ico
+        -   
+        +¦¦¦css
+        -       bootstrap.min.css
+        -       elegant-icons.css
+        -       font-awesome.min.css
+        -       jquery-ui.min.css
+        -       login.css
+        -       nice-select.css
+        -       owl.carousel.min.css
+        -       site.css
+        -       slicknav.min.css
+        -       style.css
+        -       
+        +¦¦¦js
+        -       bootstrap.min.js
+        -       jquery-3.3.1.min.js
+        -       jquery-ui.min.js
+        -       jquery.nice-select.min.js
+        -       jquery.slicknav.js
+        -       main.js
+        -       mixitup.min.js
+        -       owl.carousel.min.js
+        -       script.js
+        -       site.js
+        -       
+        L¦¦¦lib
+            +¦¦¦bootstrap
+            -   -   LICENSE
+            -   -   
+            -   L¦¦¦dist
+            -       +¦¦¦css
+            -       -       bootstrap-grid.css
+            -       -       bootstrap-grid.css.map
+            -       -       bootstrap-grid.min.css
+            -       -       bootstrap-grid.min.css.map
+            -       -       bootstrap-grid.rtl.css
+            -       -       bootstrap-grid.rtl.css.map
+            -       -       bootstrap-grid.rtl.min.css
+            -       -       bootstrap-grid.rtl.min.css.map
+            -       -       bootstrap-reboot.css
+            -       -       bootstrap-reboot.css.map
+            -       -       bootstrap-reboot.min.css
+            -       -       bootstrap-reboot.min.css.map
+            -       -       bootstrap-reboot.rtl.css
+            -       -       bootstrap-reboot.rtl.css.map
+            -       -       bootstrap-reboot.rtl.min.css
+            -       -       bootstrap-reboot.rtl.min.css.map
+            -       -       bootstrap-utilities.css
+            -       -       bootstrap-utilities.css.map
+            -       -       bootstrap-utilities.min.css
+            -       -       bootstrap-utilities.min.css.map
+            -       -       bootstrap-utilities.rtl.css
+            -       -       bootstrap-utilities.rtl.css.map
+            -       -       bootstrap-utilities.rtl.min.css
+            -       -       bootstrap-utilities.rtl.min.css.map
+            -       -       bootstrap.css
+            -       -       bootstrap.css.map
+            -       -       bootstrap.min.css
+            -       -       bootstrap.min.css.map
+            -       -       bootstrap.rtl.css
+            -       -       bootstrap.rtl.css.map
+            -       -       bootstrap.rtl.min.css
+            -       -       bootstrap.rtl.min.css.map
+            -       -       
+            -       L¦¦¦js
+            -               bootstrap.bundle.js
+            -               bootstrap.bundle.js.map
+            -               bootstrap.bundle.min.js
+            -               bootstrap.bundle.min.js.map
+            -               bootstrap.esm.js
+            -               bootstrap.esm.js.map
+            -               bootstrap.esm.min.js
+            -               bootstrap.esm.min.js.map
+            -               bootstrap.js
+            -               bootstrap.js.map
+            -               bootstrap.min.js
+            -               bootstrap.min.js.map
+            -               
+            +¦¦¦jquery
+            -   -   LICENSE.txt
+            -   -   
+            -   L¦¦¦dist
+            -           jquery.js
+            -           jquery.min.js
+            -           jquery.min.map
+            -           
+            +¦¦¦jquery-validation
+            -   -   LICENSE.md
+            -   -   
+            -   L¦¦¦dist
+            -           additional-methods.js
+            -           additional-methods.min.js
+            -           jquery.validate.js
+            -           jquery.validate.min.js
+            -           
+            L¦¦¦jquery-validation-unobtrusive
+                    jquery.validate.unobtrusive.js
+                    jquery.validate.unobtrusive.min.js
+                    LICENSE.txt
+                    

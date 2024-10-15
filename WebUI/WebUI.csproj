@@ -27,9 +27,4 @@
     <None Include="wwwroot\js\script.js" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Context\css\" />
-    <Folder Include="Context\js\" />
-  </ItemGroup>
-
 </Project>
