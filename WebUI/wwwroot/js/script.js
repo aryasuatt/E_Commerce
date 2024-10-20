@@ -36,7 +36,7 @@ async function login(username, password) {
         if (response.ok) {
             const data = await response.json();
             localStorage.setItem('token', data.token); // Token'ı sakla
-            window.location.href = 'https://localhost:7160/Home/Index'; // Ana sayfaya yönlendir
+            window.location.href = 'https://localhost:7160/Home/Index'; // Admin Kontrol sayfasına yönlendir
         } else {
             const errorMessage = await response.text();
             document.getElementById('error-message').innerText = 'Giriş bilgileri hatalı: ' + errorMessage;

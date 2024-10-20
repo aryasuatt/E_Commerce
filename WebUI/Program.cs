@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Cors.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 //CORS politikasý

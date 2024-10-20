@@ -27,7 +27,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://127.0.0.1:5500") // UI projesinin çalýþtýðý port
+            builder.WithOrigins("http://127.0.0.1:5500", "http://localhost:44333", "http://localhost:7160") // UI projesinin çalýþtýðý port
                    .AllowAnyMethod()                     // Tüm HTTP metotlarýna izin ver
                    .AllowAnyHeader()                     // Her türlü HTTP baþlýðýna izin ver
                    .AllowCredentials();                  // Kimlik doðrulama bilgilerini kabul et (JWT veya cookie)
