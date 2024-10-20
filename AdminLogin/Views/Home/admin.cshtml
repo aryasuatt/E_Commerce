@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/admin.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="admin-body">
+
+    <div class="admin-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="/admin/users">Users</a></li>
+                    <li><a href="/admin/products">Products</a></li>
+                    <li><a href="/admin/orders">Orders</a></li>
+                    <li><a href="/admin/reports">Reports</a></li>
+                    <li><a href="/admin/settings">Settings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="dashboard">
+                <h2>Dashboard Overview</h2>
+                <canvas id="salesChart"></canvas>
+                <div id="stats">
+                    <div class="stat">
+                        <h3>Total Users</h3>
+                        <p id="totalUsers">0</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Total Products</h3>
+                        <p id="totalProducts">0</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Total Orders</h3>
+                        <p id="totalOrders">0</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sanal Market. Tüm Hakları Saklıdır.</p>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // API'den veri çekmek için fonksiyon
+            async function fetchData() {
+                try {
+                    const response = await fetch('/api/users'); // Kullanıcı sayısını almak için API çağrısı
+                    const users = await response.json();
+                    $('#totalUsers').text(users.length); // Kullanıcı sayısını göster
+
+                    const productResponse = await fetch('/api/products'); // Ürün sayısını almak için API çağrısı
+                    const products = await productResponse.json();
+                    $('#totalProducts').text(products.length); // Ürün sayısını göster
+
+                    const orderResponse = await fetch('/api/orders'); // Sipariş sayısını almak için API çağrısı
+                    const orders = await orderResponse.json();
+                    $('#totalOrders').text(orders.length); // Sipariş sayısını göster
+
+                    // Satış grafiği verileri
+                    const salesData = {
+                        labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran'],
+                        datasets: [{
+                            label: 'Aylık Satışlar',
+                            data: [12, 19, 3, 5, 2, 3],
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    };
+
+                    const ctx = document.getElementById('salesChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'bar',
+                        data: salesData,
+                        options: {
+                            responsive: true,
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                } catch (error) {
+                    console.error('Hata:', error);
+                }
+            }
+
+            fetchData();
+        });
+    </script>
+</body>
+</html>

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanalMarketAPI", "SanalMarketAPI.csproj", "{3DDD344A-0831-45A7-9736-4F3231D572F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "..\WebUI\WebUI.csproj", "{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "..\WebUI\WebUI.csproj", "{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminLogin", "..\AdminLogin\AdminLogin.csproj", "{D439C42E-E87B-4678-9C78-160A454304A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D439C42E-E87B-4678-9C78-160A454304A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D439C42E-E87B-4678-9C78-160A454304A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D439C42E-E87B-4678-9C78-160A454304A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D439C42E-E87B-4678-9C78-160A454304A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
