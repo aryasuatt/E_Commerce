@@ -21,16 +21,28 @@ builder.Services.AddSwaggerGen();
 // Add Response Caching
 builder.Services.AddResponseCaching();
 
-// CORS configuration
+// CORS configuration Geliþtirme aþamasýnda devre dýþý býrakýyorum
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowSpecificOrigin",
+//        builder =>
+//        {
+//            builder.WithOrigins("http://localhost:44333", "http://localhost:7160") // UI projesinin çalýþtýðý port
+//                   .AllowAnyMethod()                     // Tüm HTTP metotlarýna izin ver
+//                   .AllowAnyHeader()                     // Her türlü HTTP baþlýðýna izin ver
+//                   .AllowCredentials();                  // Kimlik doðrulama bilgilerini kabul et (JWT veya cookie)
+//        });
+//});
+
+// Geliþtirme aþamasýnda tüm originlere izin verilecektir
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
+    options.AddPolicy("AllowAllOrigins",
         builder =>
         {
-            builder.WithOrigins("http://127.0.0.1:5500", "http://localhost:44333", "http://localhost:7160") // UI projesinin çalýþtýðý port
-                   .AllowAnyMethod()                     // Tüm HTTP metotlarýna izin ver
-                   .AllowAnyHeader()                     // Her türlü HTTP baþlýðýna izin ver
-                   .AllowCredentials();                  // Kimlik doðrulama bilgilerini kabul et (JWT veya cookie)
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
         });
 });
 
@@ -83,7 +95,8 @@ if (app.Environment.IsDevelopment())
 }
 
 // Add CORS middleware
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowAllOrigins"); //Sonraki aþamada "app.UseCors("AllowAllOrigins");" olarak yeniden düzenlenecek
+
 
 // Enable HTTPS redirection
 app.UseHttpsRedirection();

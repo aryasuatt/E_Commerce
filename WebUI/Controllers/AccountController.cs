@@ -24,7 +24,7 @@ namespace WebUI.Controllers
             var jsonContent = new StringContent(JsonSerializer.Serialize(model), Encoding.UTF8, "application/json");
 
             // API'ye POST isteği gönder
-            var response = await _httpClient.PostAsync("https://localhost:5001/api/auth/login", jsonContent);
+            var response = await _httpClient.PostAsync("https://localhost:5001/api/Auth/login", jsonContent);
 
             // Eğer istek başarılıysa
             if (response.IsSuccessStatusCode)

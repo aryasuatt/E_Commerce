@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
     <link rel="stylesheet" href="/css/login.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loginForm = document.getElementById('login-form');
+
+            loginForm.addEventListener('submit', function (event) {
+                event.preventDefault(); // Formun varsayılan submit davranışını engelle
+
+                const username = document.getElementById('username').value; // Kullanıcı adını al
+                const password = document.getElementById('password').value; // Şifreyi al
+
+                fetch('https://localhost:5151/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username: username,  // Kullanıcı adını gönder
+                        password: password    // Şifreyi gönder
+                    })
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (data.token) {
+                            // Token bulunduğunda sakla
+                            localStorage.setItem('token', data.token);
+                            console.log('Token saklandı:', data.token);
+
+                            // Giriş başarılı olduğunda yönlendirme yapabilirsiniz
+                            window.location.href = 'https://localhost:7160/'; // Dashboard veya ana sayfa gibi
+                        } else {
+                            console.error('Token bulunamadı.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Giriş işlemi sırasında hata oluştu:', error);
+                    });
+            });
+        });
+    </script>
 </head>
 <body class="login_body">
 
@@ -13,7 +57,7 @@
         <form id="login-form">
             <div class="form-group">
                 <label for="username">Kullanıcı Adı:</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="username" required autocomplete="username"> <!-- Autocomplete'ü username olarak değiştir -->
             </div>
             <div class="form-group">
                 <label for="password">Şifre:</label>
@@ -26,8 +70,6 @@
         <a href="/sifremi-unuttum" class="forgot-password-link">Şifremi Unuttum</a>
     </div>
 
-    
-    
     <script src="/js/script.js"></script>
 </body>
 </html>
