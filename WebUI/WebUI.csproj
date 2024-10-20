@@ -21,6 +21,81 @@
     <None Include="wwwroot\css\owl.carousel.min.css" />
     <None Include="wwwroot\css\slicknav.min.css" />
     <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\fonts\ElegantIcons.eot" />
+    <None Include="wwwroot\fonts\ElegantIcons.svg" />
+    <None Include="wwwroot\fonts\ElegantIcons.ttf" />
+    <None Include="wwwroot\fonts\ElegantIcons.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\img\banner\banner-1.jpg" />
+    <None Include="wwwroot\img\banner\banner-2.jpg" />
+    <None Include="wwwroot\img\blog\blog-1.jpg" />
+    <None Include="wwwroot\img\blog\blog-2.jpg" />
+    <None Include="wwwroot\img\blog\blog-3.jpg" />
+    <None Include="wwwroot\img\blog\blog-4.jpg" />
+    <None Include="wwwroot\img\blog\blog-5.jpg" />
+    <None Include="wwwroot\img\blog\blog-6.jpg" />
+    <None Include="wwwroot\img\blog\details\details-author.jpg" />
+    <None Include="wwwroot\img\blog\details\details-hero.jpg" />
+    <None Include="wwwroot\img\blog\details\details-pic.jpg" />
+    <None Include="wwwroot\img\blog\sidebar\sr-1.jpg" />
+    <None Include="wwwroot\img\blog\sidebar\sr-2.jpg" />
+    <None Include="wwwroot\img\blog\sidebar\sr-3.jpg" />
+    <None Include="wwwroot\img\breadcrumb.jpg" />
+    <None Include="wwwroot\img\cart\cart-1.jpg" />
+    <None Include="wwwroot\img\cart\cart-2.jpg" />
+    <None Include="wwwroot\img\cart\cart-3.jpg" />
+    <None Include="wwwroot\img\categories\cat-1.jpg" />
+    <None Include="wwwroot\img\categories\cat-2.jpg" />
+    <None Include="wwwroot\img\categories\cat-3.jpg" />
+    <None Include="wwwroot\img\categories\cat-4.jpg" />
+    <None Include="wwwroot\img\categories\cat-5.jpg" />
+    <None Include="wwwroot\img\featured\feature-1.jpg" />
+    <None Include="wwwroot\img\featured\feature-2.jpg" />
+    <None Include="wwwroot\img\featured\feature-3.jpg" />
+    <None Include="wwwroot\img\featured\feature-4.jpg" />
+    <None Include="wwwroot\img\featured\feature-5.jpg" />
+    <None Include="wwwroot\img\featured\feature-6.jpg" />
+    <None Include="wwwroot\img\featured\feature-7.jpg" />
+    <None Include="wwwroot\img\featured\feature-8.jpg" />
+    <None Include="wwwroot\img\hero\banner.jpg" />
+    <None Include="wwwroot\img\language.png" />
+    <None Include="wwwroot\img\latest-product\lp-1.jpg" />
+    <None Include="wwwroot\img\latest-product\lp-2.jpg" />
+    <None Include="wwwroot\img\latest-product\lp-3.jpg" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\payment-item.png" />
+    <None Include="wwwroot\img\product\details\product-details-1.jpg" />
+    <None Include="wwwroot\img\product\details\product-details-2.jpg" />
+    <None Include="wwwroot\img\product\details\product-details-3.jpg" />
+    <None Include="wwwroot\img\product\details\product-details-4.jpg" />
+    <None Include="wwwroot\img\product\details\product-details-5.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-1.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-2.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-3.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-4.jpg" />
+    <None Include="wwwroot\img\product\discount\pd-1.jpg" />
+    <None Include="wwwroot\img\product\discount\pd-2.jpg" />
+    <None Include="wwwroot\img\product\discount\pd-3.jpg" />
+    <None Include="wwwroot\img\product\discount\pd-4.jpg" />
+    <None Include="wwwroot\img\product\discount\pd-5.jpg" />
+    <None Include="wwwroot\img\product\discount\pd-6.jpg" />
+    <None Include="wwwroot\img\product\product-1.jpg" />
+    <None Include="wwwroot\img\product\product-10.jpg" />
+    <None Include="wwwroot\img\product\product-11.jpg" />
+    <None Include="wwwroot\img\product\product-12.jpg" />
+    <None Include="wwwroot\img\product\product-2.jpg" />
+    <None Include="wwwroot\img\product\product-3.jpg" />
+    <None Include="wwwroot\img\product\product-4.jpg" />
+    <None Include="wwwroot\img\product\product-5.jpg" />
+    <None Include="wwwroot\img\product\product-6.jpg" />
+    <None Include="wwwroot\img\product\product-7.jpg" />
+    <None Include="wwwroot\img\product\product-8.jpg" />
+    <None Include="wwwroot\img\product\product-9.jpg" />
     <None Include="wwwroot\js\bootstrap.min.js" />
     <None Include="wwwroot\js\jquery-3.3.1.min.js" />
     <None Include="wwwroot\js\jquery-ui.min.js" />
@@ -38,6 +113,10 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Views\Shared\main_Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Context\" />
   </ItemGroup>
 
 </Project>

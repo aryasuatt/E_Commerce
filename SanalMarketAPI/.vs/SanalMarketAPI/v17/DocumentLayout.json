@@ -3,50 +3,41 @@
   "WorkspaceRootPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\user_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\blog-details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\shoping-cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\admin_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\shop-grid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\shop-details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\user_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,21 +47,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T17:47:36.346Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -93,174 +71,165 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\AdminLogin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
+              "DocumentIndex": 4,
+              "Title": "User_login.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\User_login.cshtml",
+              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\User_login.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\User_login.cshtml",
+              "RelativeToolTip": "..\\WebUI\\Views\\Home\\User_login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:17:42.374Z",
+              "WhenOpened": "2024-10-20T17:28:27.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAALMEAAAAAAAAAAAjwNgEAABHAAAA",
+              "DocumentIndex": 6,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Blog.cshtml",
+              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Blog.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Blog.cshtml",
+              "RelativeToolTip": "..\\WebUI\\Views\\Home\\Blog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T12:52:31.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "admin.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T12:49:57.76Z",
+              "WhenOpened": "2024-10-20T17:17:47.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\WebUI\\Program.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Program.cs",
-              "RelativeToolTip": "..\\WebUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:55:03.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "script.js",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
-              "RelativeDocumentMoniker": "..\\WebUI\\wwwroot\\js\\script.js",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
-              "RelativeToolTip": "..\\WebUI\\wwwroot\\js\\script.js",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwEAAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-20T11:49:21.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "shoping-cart.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\shoping-cart.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\shoping-cart.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\shoping-cart.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\shoping-cart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABJAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\WebUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAH0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:40:48.029Z"
+              "WhenOpened": "2024-10-20T14:43:05.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "shop-grid.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\shop-grid.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\shop-grid.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\shop-grid.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\shop-grid.cshtml",
-              "ViewState": "AQIAABgDAAAAAAAAAAAQwD4DAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:40:37.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "shop-details.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\shop-details.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\shop-details.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\shop-details.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\shop-details.cshtml",
-              "ViewState": "AQIAAAcCAAAAAAAAAAAQwC0CAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:40:07.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\checkout.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\checkout.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\checkout.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\checkout.cshtml",
-              "ViewState": "AQIAAKcBAAAAAAAAAAAQwM0BAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:37:50.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "blog-details.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\blog-details.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\blog-details.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\blog-details.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\blog-details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:31:17.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T11:28:27.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\WebUI\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Properties\\launchSettings.json",
               "RelativeToolTip": "..\\WebUI\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwCYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T11:27:41.089Z"
+              "WhenOpened": "2024-10-20T14:36:59.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "..\\WebUI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "..\\WebUI\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:57:46.775Z"
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\WebUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\appsettings.json",
+              "RelativeToolTip": "..\\WebUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T14:36:50.209Z",
+              "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Program.cs",
+              "RelativeToolTip": "..\\WebUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:36:43.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin_login.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Admin_login.cshtml",
+              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Admin_login.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Admin_login.cshtml",
+              "RelativeToolTip": "..\\WebUI\\Views\\Home\\Admin_login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:32:44.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:23:13.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Program.cs",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\Program.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Program.cs",
+              "RelativeToolTip": "..\\AdminLogin\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:47:34.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T12:49:57.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "user_login.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\user_login.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\user_login.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\user_login.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\user_login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:50:26.639Z"
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T17:12:23.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "..\\WebUI\\wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "..\\WebUI\\wwwroot\\js\\script.js",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwE4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-20T17:43:12.234Z",
+              "EditorCaption": ""
             }
           ]
         }

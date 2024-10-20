@@ -1,65 +1,79 @@
-document.getElementById("login-btn").addEventListener("click", function(event) {
+// Giriş butonuna tıklama olayını dinle
+document.getElementById("login-btn").addEventListener("click", function (event) {
     event.preventDefault(); // Formun hemen gönderilmesini engelle
 
     const button = event.target;
-    
+
     // Buton üzerinde kısa bir yüklenme animasyonu
     button.innerHTML = "Yükleniyor...";
     button.disabled = true;
 
-    // 2 saniye sonra animasyonu sıfırla ve formu göndermeye devam et
-    setTimeout(() => {
-        button.innerHTML = "Giriş Yap";
-        button.disabled = false;
-        document.getElementById("login-form").submit();
-    }, 2000);
-});
-
-// Kullanıcı girişi
-async function login(username, password) {
-    const response = await fetch('http://localhost:5500/api/auth/login', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ username, password })
-    });
-
-    if (response.ok) {
-        const data = await response.json();
-        localStorage.setItem('token', data.token);
-        window.location.href = '/homepage'; // Ana sayfaya yönlendir
-    } else {
-        const errorMessage = await response.text();
-        console.error('Giriş başarısız:', errorMessage);
-    }
-}
-
-// Ürünleri alma
-async function fetchProducts() {
-    const token = localStorage.getItem('token');
-    const response = await fetch('http://localhost:5002/api/products', {
-        method: 'GET',
-        headers: {
-            'Authorization': `Bearer ${token}`
-        }
-    });
-
-    if (response.ok) {
-        const products = await response.json();
-        console.log('Ürünler:', products);
-        // Ürünleri sayfada göster
-    } else {
-        console.error('Yetkisiz erişim');
-    }
-}
-
-// Belirli bir olay için fonksiyonu çağırma
-document.getElementById('login-button').addEventListener('click', function () {
+    // Kullanıcı adı ve şifreyi al
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
-    login(username, password);
+
+    // Giriş yapmaya çalış
+    login(username, password).then(() => {
+        // Giriş başarılıysa 2 saniye sonra animasyonu sıfırla ve formu gönder
+        setTimeout(() => {
+            button.innerHTML = "Giriş Yap";
+            button.disabled = false;
+        }, 2000);
+    });
 });
 
-// Ürünleri yüklemek için bir fonksiyon çağır
-document.addEventListener('DOMContentLoaded', fetchProducts); // Sayfa yüklendiğinde ürünleri al
+// Kullanıcı girişi fonksiyonu
+async function login(username, password) {
+    try {
+        const response = await fetch('https://localhost:5003/api/auth/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password })
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            localStorage.setItem('token', data.token); // Token'ı sakla
+            window.location.href = 'https://localhost:7160/Home/Index'; // Ana sayfaya yönlendir
+        } else {
+            const errorMessage = await response.text();
+            document.getElementById('error-message').innerText = 'Giriş bilgileri hatalı: ' + errorMessage;
+        }
+    } catch (error) {
+        console.error('Giriş işlemi sırasında hata oluştu:', error);
+        document.getElementById('error-message').innerText = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+    }
+}
+
+// Ürünleri alma fonksiyonu
+async function fetchProducts() {
+    const token = localStorage.getItem('token');
+    if (!token) {
+        console.error('Token bulunamadı.');
+        return;
+    }
+
+    try {
+        const response = await fetch('http://localhost:5002/api/products', {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        });
+
+        if (response.ok) {
+            const products = await response.json();
+            console.log('Ürünler:', products);
+            // Ürünleri sayfada gösterme işlemi burada yapılabilir
+        } else {
+            console.error('Yetkisiz erişim');
+        }
+    } catch (error) {
+        console.error('Ürünler alınırken hata oluştu:', error);
+    }
+}
+
+// Ürünleri sayfa yüklendiğinde almak için
+document.addEventListener('DOMContentLoaded', fetchProducts);

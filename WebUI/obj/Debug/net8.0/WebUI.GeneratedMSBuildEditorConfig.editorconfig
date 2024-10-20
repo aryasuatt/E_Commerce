@@ -18,44 +18,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\arya\Desktop\Github\Eticaret yeni\E_Commerce\WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/admin_login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pbl9sb2dpbi5jc2h0bWw=
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Admin_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbl9sb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/blog-details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxibG9nLWRldGFpbHMuY3NodG1s
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxibG9nLmNzaHRtbA==
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Blog_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nX2RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjaGVja291dC5jc2h0bWw=
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YWN0LmNzaHRtbA==
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/shop-details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG9wLWRldGFpbHMuY3NodG1s
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Shoping_cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9waW5nX2NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/shop-grid.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG9wLWdyaWQuY3NodG1s
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Shop_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wX2RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/shoping-cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG9waW5nLWNhcnQuY3NodG1s
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/Shop_grid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wX2dyaWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/user_login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1c2VyX2xvZ2luLmNzaHRtbA==
+[C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Home/User_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyX2xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/arya/Desktop/Github/Eticaret yeni/E_Commerce/WebUI/Views/Shared/Error.cshtml]

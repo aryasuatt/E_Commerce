@@ -2916,6 +2916,63 @@
 
     return Treeview;
   }();
+
+
+
+
+  /**
+   * Api baðlantýsý
+   * 
+   */
+    async function fetchProducts() {
+        const token = localStorage.getItem('token');
+        const response = await fetch('https://localhost:5001/api/products', {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (response.ok) {
+            const products = await response.json();
+            displayProducts(products);
+        } else {
+            console.error('API isteði baþarýsýz:', response.statusText);
+        }
+    }
+
+    function displayProducts(products) {
+        const productsContainer = document.getElementById('products-container');
+        productsContainer.innerHTML = '';
+
+        products.forEach(product => {
+            const productElement = document.createElement('div');
+            productElement.classList.add('product');
+            productElement.innerHTML = `
+            <h3>${product.name}</h3>
+            <p>${product.description}</p>
+            <p>Fiyat: ${product.price}</p>
+        `;
+            productsContainer.appendChild(productElement);
+        });
+    }
+
+    window.onload = fetchProducts;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /**
    * Data API
    * ====================================================
