@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62ffec4ffb02556cef15661b0c2778eae1bf2bea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a437c9fa935957a5e86cd63500179f7ff90ec431")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
