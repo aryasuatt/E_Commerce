@@ -14,7 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5151",
+      "applicationUrl": "http://localhost:5002", // API HTTP portu olarak 5002 belirlendi
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -24,7 +24,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7179;http://localhost:5151",
+      "applicationUrl": "https://localhost:5003", // API HTTPS portu olarak 5003 belirlendi
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

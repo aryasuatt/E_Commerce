@@ -13,7 +13,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5097",
+      "applicationUrl": "http://localhost:5500", // UI HTTP portu olarak 5500 belirlendi
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -22,7 +22,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7277;http://localhost:5097",
+      "applicationUrl": "https://localhost:5501", // UI HTTPS portu olarak 5501 belirlendi
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
