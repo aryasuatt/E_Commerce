@@ -823,6 +823,50 @@
             </section>
             <!-- /.content -->
         </div>
+
+        <!--
+            Bu kısım database içeriğini yansıtmak adına denemedir
+        -->
+
+        @* <h2>Satıcı Siparişleri</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Sipariş ID</th>
+                    <th>Sipariş Tarihi</th>
+                    <th>Toplam Tutar</th>
+                    <th>Ürünler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td>@order.OrderId</td>
+                        <td>@order.OrderDate.ToShortDateString()</td>
+                        <td>@order.TotalAmount</td>
+                        <td>
+                            <ul>
+                                @foreach (var item in order.OrderItems)
+                                {
+                                    <li>@item.Product.ProductName - @item.Quantity adet</li>
+                                }
+                            </ul>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table> *@
+
+
+
+
+
+
+
+
+
         <!-- /.content-wrapper -->
         <footer class="main-footer">
             <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>

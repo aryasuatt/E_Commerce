@@ -5,7 +5,7 @@ using SanalMarketAPI.Models;
 
 namespace SanalMarketAPI.Data
 {
-    // Use ApplicationUser for custom identity user model
+    // Custom identity user model for the application
     public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
@@ -18,59 +18,66 @@ namespace SanalMarketAPI.Data
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Address> Addresses { get; set; }
-        public DbSet<Review> Reviews { get; set; }    
+        public DbSet<Review> Reviews { get; set; }
         public DbSet<Wishlist> Wishlists { get; set; }
         public DbSet<Shipping> Shippings { get; set; }
         public DbSet<Discount> Discounts { get; set; }
-
-
+        public DbSet<Seller> Sellers { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // CartItem ile User arasındaki ilişkiyi tanımla
+            // CartItems ile User arasındaki ilişki
             modelBuilder.Entity<CartItems>()
                 .HasOne(c => c.Customer)
                 .WithMany(u => u.CartItems)
                 .HasForeignKey(c => c.CustomerId)
-                .OnDelete(DeleteBehavior.Restrict); // Veya DeleteBehavior.SetNull
+                .OnDelete(DeleteBehavior.Restrict);
 
-
-            modelBuilder.Entity<CartItems>()
-                .HasOne(c => c.Customer)
-                .WithMany(u => u.CartItems)
-                .HasForeignKey(c => c.CustomerId);
-
+            // Product fiyatlandırma
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
-                .HasColumnType("decimal(18,2)"); // 18 toplam basamak, 2 ondalık basamak
+                .HasColumnType("decimal(18,2)");
 
+            // Order toplam fiyat
             modelBuilder.Entity<Order>()
                 .Property(o => o.TotalAmount)
                 .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<Order>()
+               .HasOne(o => o.User)
+               .WithMany(u => u.CustomerOrders)
+               .HasForeignKey(o => o.CustomerId)
+               .OnDelete(DeleteBehavior.Cascade); // Müşteri sipariş silindiğinde siparişler de silinsin
 
-            // OrderItem ile Order arasındaki ilişkiyi tanımla
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Seller)
+                .WithMany(u => u.SellerOrders)
+                .HasForeignKey(o => o.SellerId)
+                .OnDelete(DeleteBehavior.Restrict); // Satıcı silindiğinde siparişler silinmesin
 
+
+            // OrderItem ile Order ve Product arasındaki ilişki
             modelBuilder.Entity<OrderItem>()
                 .HasOne(oi => oi.Order)
                 .WithMany(o => o.OrderItems)
                 .HasForeignKey(oi => oi.OrderId)
-                .OnDelete(DeleteBehavior.Cascade); // Order silinirse OrderItems da silinsin
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<OrderItem>()
                 .HasOne(oi => oi.Product)
                 .WithMany(p => p.OrderItems)
                 .HasForeignKey(oi => oi.ProductId)
-                .OnDelete(DeleteBehavior.Restrict); // Product silinirse, OrderItems kalmaya devam etsin
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Review ile Product ve User arasındaki ilişki
             modelBuilder.Entity<Review>()
                 .HasOne(r => r.Product)
                 .WithMany(p => p.Reviews)
                 .HasForeignKey(r => r.ProductId)
-                .OnDelete(DeleteBehavior.Cascade); // Product silinirse Reviews de silinir
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Review>()
                 .HasOne(r => r.User)
@@ -94,7 +101,7 @@ namespace SanalMarketAPI.Data
             // Shipping ile Order arasındaki ilişki
             modelBuilder.Entity<Shipping>()
                 .HasOne(s => s.Order)
-                .WithMany(o => o.Shipping)
+                .WithMany(o => o.Shippings) // 'Shipping' koleksiyonu 'Shippings' olarak düzenlendi
                 .HasForeignKey(s => s.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
 
@@ -104,11 +111,25 @@ namespace SanalMarketAPI.Data
                 .WithMany(p => p.Discounts)
                 .UsingEntity(j => j.ToTable("ProductDiscounts"));
 
+            // Product ve Seller arasındaki ilişki
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Seller)
+                .WithMany(s => s.Products)
+                .HasForeignKey(p => p.SellerId);
 
+            // Customer ve Order arasındaki ilişki
+            modelBuilder.Entity<ApplicationUser>()
+                .HasMany(u => u.CustomerOrders)
+                .WithOne(o => o.Customer)
+                .HasForeignKey(o => o.CustomerId)
+                .OnDelete(DeleteBehavior.Restrict);
 
-
+            // Seller ve Order arasındaki ilişki
+            modelBuilder.Entity<ApplicationUser>()
+                .HasMany(u => u.SellerOrders)
+                .WithOne(o => o.Seller)
+                .HasForeignKey(o => o.SellerId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
-
     }
-
 }

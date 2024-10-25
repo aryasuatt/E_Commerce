@@ -35,11 +35,11 @@ namespace SanalMarketAPI.Controllers
         }
 
         //Kullanıcı kayıt işlemi (POST /api/auth/register)
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterModel model)
+        [HttpPost("register-user")]
+        public async Task<IActionResult> RegisterUser([FromBody] RegisterModel model)
         {
             // Yeni bir kullanıcı oluşturuluyor
-            var user = new ApplicationUser
+            var user = new User
             {
                 UserName = model.Username,   // Kullanıcı adı
                 Email = model.Email,         // Email adresi
@@ -59,12 +59,40 @@ namespace SanalMarketAPI.Controllers
             return BadRequest(result.Errors);   //Hatalı istek yanıtı
         }
 
+
+        //Satıcı kayıt işlemi (POST /api/auth/register)
+        [HttpPost("register-user")]
+        public async Task<IActionResult> RegisterSeller([FromBody] RegisterModel model)
+        {
+            // Yeni bir kullanıcı oluşturuluyor
+            var seller = new Seller
+            {
+                UserName = model.Username,   // Kullanıcı adı
+                Email = model.Email,         // Email adresi
+                FullName = model.FullName
+            };
+
+            // Identity framework ile kullanıcı oluşturma işlemi yapılıyor
+            var result = await _userManager.CreateAsync(seller, model.Password);
+
+            if (result.Succeeded)   //  Eğer kullanıcı oluşturma başarılıysa
+            {
+                //Gerekirse burada kullanıcıya rol atama işlemi yapılabilir (opsiyonel)
+                return Ok(new { message = "User registered successfully." }); //
+
+            }
+            // Kullanıcı oluşturma başarısızsa, hataları geri döner.
+            return BadRequest(result.Errors);   //Hatalı istek yanıtı
+        }
+
+
+
         // Kullanıcı giriş işlemi (POST /api/auth/login)
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginModel model)
+        [HttpPost("login-user")]
+        public async Task<IActionResult> LoginUser([FromBody] LoginModel model)
         {
             // Kullanıcı adıyla kullanıcı aranıyor
-            var user = await _userManager.FindByNameAsync(model.Username);
+            var user = await _userManager.FindByNameAsync(model.Username) as User;
 
             // Kullanıcı bulundu ve şifre doğruysa giriş yapar
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
@@ -78,6 +106,29 @@ namespace SanalMarketAPI.Controllers
             return Unauthorized();
 
         }
+
+        // Satıcı  giriş işlemi (POST /api/auth/login)
+        [HttpPost("login-seller")]
+        public async Task<IActionResult> LoginSeller([FromBody] LoginModel model)
+        {
+            // Kullanıcı adıyla kullanıcı aranıyor
+            var seller = await _userManager.FindByNameAsync(model.Username) as Seller;
+
+            // Kullanıcı bulundu ve şifre doğruysa giriş yapar
+            if (seller != null && await _userManager.CheckPasswordAsync(seller, model.Password))
+            {
+                // JWT token üretme işlemi başlıyor
+                var token = GenerateJwtToken(seller); // Aşağıda tanımlı token üretme fonksiyonu çağrılıyor
+                return Ok(new { Token = token });   // Token kullanıcıya geri gönderiliyor
+            }
+
+            // Eğer kullanıcı adı veya şifre yanlışsa Unauthorized (yetkisiz) hata döner.
+            return Unauthorized();
+
+        }
+
+
+
 
         // JWT Token üretme fonksiyonu
         private string GenerateJwtToken(ApplicationUser user)
@@ -101,7 +152,7 @@ namespace SanalMarketAPI.Controllers
 
                 NotBefore = DateTime.UtcNow,
 
-                Expires = DateTime.UtcNow.AddHours(1), // Token'ın geçerlilik süresi
+                Expires = DateTime.UtcNow.AddHours(1), // Token'ın geçerlilik süresi 1 saat
                 Issuer = _configuration["Jwt:Issuer"],      // Token'ı yayınlayan
                 Audience = _configuration["Jwt:Audience"],  // Token'ı alacak olan (kimler kullanabilir)
 
@@ -133,8 +184,10 @@ namespace SanalMarketAPI.Controllers
         public required string Password { get; set; }  // Şifre
     }
 
-    // Kullanıcı sınıfı (IdentityUser'dan türetilmiş)
-   
+
+    public class User : ApplicationUser { }
+    public class Seller : ApplicationUser { }
+
 }
 
 

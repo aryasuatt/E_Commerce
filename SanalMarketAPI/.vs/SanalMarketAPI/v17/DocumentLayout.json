@@ -3,53 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\admin_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\shop_grid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6D31ABA-3ED1-4EBA-AA49-88B8DEF1CD3B}|..\\WebUI\\WebUI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\wwwroot\\dist\\js\\adminlte.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D439C42E-E87B-4678-9C78-160A454304A4}|..\\AdminLogin\\AdminLogin.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\adminlogin\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|c:\\users\\arya\\desktop\\github\\eticaret yeni\\e_commerce\\sanalmarketapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3DDD344A-0831-45A7-9736-4F3231D572F0}|SanalMarketAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,45 +45,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin_login.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Admin_login.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Admin_login.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Admin_login.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\Admin_login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T18:47:27.591Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\OrderItem.cs",
-              "RelativeToolTip": "Models\\OrderItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T22:18:02.208Z",
+              "WhenOpened": "2024-10-25T18:57:40.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Seller.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Seller.cs",
-              "RelativeDocumentMoniker": "Models\\Seller.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Seller.cs",
-              "RelativeToolTip": "Models\\Seller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABVAAAA",
+              "DocumentIndex": 5,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SellerController.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "Controllers\\SellerController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T22:17:13.939Z",
+              "WhenOpened": "2024-10-25T18:50:24.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:50:21.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:42:20.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:39:35.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAgwLkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:28:00.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:26:55.765Z",
               "EditorCaption": ""
             },
             {
@@ -122,149 +160,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAjwLYAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T21:28:04.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "script.js",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
-              "RelativeDocumentMoniker": "..\\WebUI\\wwwroot\\js\\script.js",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
-              "RelativeToolTip": "..\\WebUI\\wwwroot\\js\\script.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-20T21:17:20.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "..\\WebUI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "..\\WebUI\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAABwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T21:15:47.259Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "3024-night.css",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
-              "RelativeToolTip": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T21:15:45.804Z"
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Seller.cs",
+              "RelativeDocumentMoniker": "Models\\Seller.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Seller.cs",
+              "RelativeToolTip": "Models\\Seller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:25:52.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "3024-day.css",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
-              "RelativeToolTip": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T21:15:42.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "adminlte.js",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
-              "RelativeToolTip": "..\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
-              "ViewState": "AQIAAFYLAAAAAAAAAAAawHMLAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-20T19:11:07.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "admin.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T19:10:54.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T18:53:10.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAGEAAABvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T18:51:56.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\WebUI\\Program.cs",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Program.cs",
-              "RelativeToolTip": "..\\WebUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T18:51:18.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Shop_grid.cshtml",
-              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Shop_grid.cshtml",
-              "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Shop_grid.cshtml",
-              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Shop_grid.cshtml",
-              "RelativeToolTip": "..\\WebUI\\Views\\Home\\Shop_grid.cshtml",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAjwHgAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T18:29:31.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\WebUI\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "..\\WebUI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAjwDYAAAAwAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T18:25:32.3Z"
+              "WhenOpened": "2024-10-21T19:46:36.452Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -12,5 +12,9 @@ namespace SanalMarketAPI.Models
         public ICollection<Review> Reviews { get; set; }
         public ICollection<Wishlist> Wishlists { get; set; }
 
+        // Satıcıya ait olan siparişler
+        public ICollection<Order> CustomerOrders { get; set; } // Müşteri olduğu siparişler
+        public ICollection<Order> SellerOrders { get; set; }   // Satıcı olduğu siparişler
+        
     }
 }

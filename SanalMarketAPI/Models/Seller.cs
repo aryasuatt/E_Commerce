@@ -1,6 +1,6 @@
 ﻿namespace SanalMarketAPI.Models
 {
-    public class Seller
+    public class Seller : ApplicationUser
     {
         public int SellerId { get; set; }
         public string SellerName { get; set; }
