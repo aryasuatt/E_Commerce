@@ -45,7 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 13,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
@@ -160,7 +164,120 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAjwLYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T21:28:04.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "..\\WebUI\\wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "..\\WebUI\\wwwroot\\js\\script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-20T21:17:20.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\WebUI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\WebUI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "..\\WebUI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAABwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:15:47.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "3024-night.css",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
+              "RelativeToolTip": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-night.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T21:15:45.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "3024-day.css",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
+              "RelativeToolTip": "..\\AdminLogin\\wwwroot\\plugins\\codemirror\\theme\\3024-day.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T21:15:42.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "adminlte.js",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
+              "RelativeToolTip": "..\\AdminLogin\\wwwroot\\dist\\js\\adminlte.js",
+              "ViewState": "AQIAAFYLAAAAAAAAAAAawHMLAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-20T19:11:07.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "RelativeDocumentMoniker": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "RelativeToolTip": "..\\AdminLogin\\Views\\Home\\admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T19:10:54.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T18:53:10.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T22:18:02.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Seller.cs",
               "DocumentMoniker": "C:\\Users\\arya\\Desktop\\Github\\Eticaret yeni\\E_Commerce\\SanalMarketAPI\\Models\\Seller.cs",
               "RelativeDocumentMoniker": "Models\\Seller.cs",
